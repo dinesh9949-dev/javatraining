@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        int p, r, t, si;
+        Scanner s = new Scanner(System.in);
+         p=s.nextInt();
+        r=s.nextInt();
+        t=s.nextInt();
+        si=(p*r*t)/100;
+        System.out.println(si);
+    }
+}
